@@ -118,6 +118,7 @@
             android:layout_marginLeft="@dimen/value_20dp"
             android:layout_marginRight="@dimen/value_20dp"
             android:layout_marginTop="@dimen/value_10dp"
+            android:gravity="center"
             android:orientation="horizontal">
 
             <EditText
@@ -129,7 +130,7 @@
                 android:inputType="number"
                 android:paddingLeft="15dp"
                 android:paddingRight="15dp"
-                android:visibility="gone"
+                android:gravity="center"
                 android:maxLength="6"/>
 
             <ProgressBar
