@@ -11,7 +11,7 @@
     android:layout_height="wrap_content">
     <ImageView
         android:layout_width="@dimen/value_50dp"
-        android:layout_height="50dp"
+        android:layout_height="@dimen/value_50dp"
         android:src="@drawable/icon_bisi"/>
 
     </android.support.v7.widget.Toolbar>
